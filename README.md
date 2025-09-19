@@ -36,7 +36,7 @@ This gives us a baseline picture of pace and momentum before we fit any models.
 ### Run
 
 ```bash
-python plot_finals_score_progress.py
+python plot_finals_progress.py
 ```
 
 
@@ -103,7 +103,7 @@ Using the per-season summary statistics saved in Section 2, we can now simulate 
 
 ### Run
 ```bash
-python simulate_games.py
+python simulate_game.py
 ```
 
 ### What This Script Does
@@ -130,7 +130,7 @@ By repeatedly simulating games with the fitted slopes and variances, we estimate
 ### Run
 
 ```bash
-python nba_finals_series_sim.py
+python simulate_best_of_seven.py
 ```
 
 ### What This Script Does
