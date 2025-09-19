@@ -140,3 +140,12 @@ python simulate_best_of_seven.py
   - First team to 4 wins takes the series.  
 - Repeats this process for an ensemble of series (default = 1000).  
 - Reports how often each team wins the Finals under this model.
+
+## 5) Final Conceptual Question
+
+### Conceptual question
+In basketball the existence of momentum—when one team seems to dominate for a stretch— and its impact on games is highly controversial in the study of sports analytics, with some arguing it’s a myth and others believing it can shift the outcome of a game. The score progression in a game might mostly follow a random walk, but momentum introduces periods where the “random” movement is biased, with one team scoring more rapidly.
+
+Let’s say you believe momentum exists and want to prove that it affects the randomness of a game—how would you go about proving this, and what methods would you use to quantify and analyze its impact?
+
+Hint: Think about how the difference between what actually happens and what a simple model predicts (i.e., the residuals) might tell you something about momentum. What would it mean if there were large discrepancies between expected and actual scores at certain points in the game?
